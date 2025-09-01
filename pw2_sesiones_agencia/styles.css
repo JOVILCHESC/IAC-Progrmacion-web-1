@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; background: #f6f7fb; color: #1f2937; }
+header { background: white; padding: 16px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #e5e7eb; position: sticky; top:0; }
+nav a { margin-left: 12px; text-decoration: none; color: #2563eb; }
+h1 { margin: 0; font-size: 20px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px; padding: 20px; }
+.card { background:white; border:1px solid #e5e7eb; border-radius: 12px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.card h3 { margin-top:0; }
+.precio { font-weight: 700; }
+button { padding: 8px 12px; border-radius: 10px; border:1px solid #c7d2fe; background:#eef2ff; cursor:pointer; }
+button:hover { background:#e0e7ff; }
+button.danger { background:#fee2e2; border-color:#fecaca; }
+button.danger:hover { background:#fecaca; }
+.tabla { width: 100%; border-collapse: collapse; background:white; margin: 20px; border:1px solid #e5e7eb; }
+.tabla th, .tabla td { padding: 10px; border-bottom:1px solid #e5e7eb; text-align:left; }
+.total { font-weight: 700; margin: 20px; }
+.flash { background:#ecfccb; border:1px solid #d9f99d; margin: 20px; padding: 10px; border-radius:8px; }
+footer { padding: 20px; text-align:center; color:#6b7280; }
